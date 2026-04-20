@@ -58,6 +58,7 @@ paths:
           required: true
           schema:
             type: string
+            example: INV-1001
       responses:
         "200":
           description: Stored remote invoice
@@ -121,6 +122,7 @@ paths:
           required: true
           schema:
             type: string
+            example: ST-2001
       responses:
         "200":
           description: Stock transfer details
